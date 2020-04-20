@@ -1,12 +1,15 @@
-fizz = gets"welk nummer is fizz?"
-buzz = gets"welk nummer is buzz?"
+fizz = 5
+buzz = 7
 counter = 0
 while counter < 100
   counter = counter + 1
   if counter % fizz == 0 && counter % buzz == 0
-    puts"FizzBuzz"
+    puts "FizzBuzz"
   elsif counter % fizz == 0
-    puts"Fizz"
+    puts "Fizz"
   elsif counter % buzz == 0
-    puts"Bizz"
+    puts "Bizz"
+  else
+    puts "#{counter}"
+end
 end
