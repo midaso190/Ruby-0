@@ -4,4 +4,3 @@ while counter < 100
   if counter % 3 == 0 && counter % buzz == 0
     puts "#{counter}"
 end
-end
